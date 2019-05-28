@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: demo
+Long-Name: TODO Plugin
+Plugin-Version: 4
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: structs:1.7
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Libraries: /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/demo-
+ plugin/src/main/resources,/Users/krzysztof/Documents/PWr/semestr-6/ja
+ va-projekt/demo-plugin/target/classes
+Resource-Path: /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/d
+ emo-plugin/src/main/webapp
+
