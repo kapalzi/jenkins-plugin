@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"io.jenkins.plugins.sample","l":"HelloWorldBuilder"},{"p":"io.jenkins.plugins.sample","l":"HelloWorldBuilder.DescriptorImpl"},{"p":"io.jenkins.plugins.sample","l":"Messages"}]

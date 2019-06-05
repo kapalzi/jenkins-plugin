@@ -1,0 +1,20 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace
+[workspace] $ /bin/sh -xe /var/folders/bx/d7xcs7g92s12t_kd2nsfxsjh0000gn/T/hudson2829154055082903467.sh
++ mvn hpi:run ./demo-plugin-kopia/
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.096 s
+[INFO] Finished at: 2019-06-05T22:14:41+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

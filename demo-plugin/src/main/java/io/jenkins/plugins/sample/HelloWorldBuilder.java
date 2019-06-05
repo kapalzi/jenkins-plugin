@@ -13,7 +13,12 @@ import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 
 import javax.servlet.ServletException;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+
 import jenkins.tasks.SimpleBuildStep;
 import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.DataBoundSetter;
@@ -43,11 +48,32 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
 
     @Override
     public void perform(Run<?, ?> run, FilePath workspace, Launcher launcher, TaskListener listener) throws InterruptedException, IOException {
-        if (useFrench) {
-            listener.getLogger().println("Bonjour, " + name + "!");
+        File destFile = new File(this.name);
+        destFile.mkdir();
+
+        String projectDir = new File(workspace.toString()).getParentFile().getAbsolutePath();
+
+        String buildDir = projectDir + File.separatorChar + "builds" + File.separatorChar + run.getNumber();
+
+        move(new File(buildDir), destFile);
+    }
+
+    private boolean move(File sourceFile, File destFile) {
+        if (sourceFile.isDirectory()) {
+            for (File file : sourceFile.listFiles()) {
+                move(file, destFile);
+            }
         } else {
-            listener.getLogger().println("Hello, " + name + "!");
+            try {
+                File target = new File(destFile, sourceFile.getName());
+
+                Files.move(Paths.get(sourceFile.getPath()), Paths.get(target.getPath()), StandardCopyOption.REPLACE_EXISTING);
+                return true;
+            } catch (IOException e) {
+                return false;
+            }
         }
+        return false;
     }
 
     @Symbol("greet")

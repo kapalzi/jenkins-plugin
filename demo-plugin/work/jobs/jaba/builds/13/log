@@ -1,0 +1,112 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace
+[workspace] $ /bin/sh -xe /var/folders/bx/d7xcs7g92s12t_kd2nsfxsjh0000gn/T/hudson9120118215084423033.sh
++ mvn -f ./demo-plugin-kopia/ hpi:run
+[INFO] Scanning for projects...
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:2.2 is missing, no dependency information available
+[WARNING] Failed to build parent project for io.jenkins.plugins:demo:hpi:1.0-SNAPSHOT
+[INFO] 
+[INFO] ----------------------< io.jenkins.plugins:demo >-----------------------
+[INFO] Building TODO Plugin 1.0-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] >>> maven-hpi-plugin:2.2:run (default-cli) > compile @ demo >>>
+[INFO] 
+[INFO] --- maven-hpi-plugin:2.2:validate (default-validate) @ demo ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:display-info (display-info) @ demo ---
+[INFO] Maven Version: 3.6.1
+[INFO] JDK Version: 1.8.0_211 normalized as: 1.8.0-211
+[INFO] OS Info: Arch: x86_64 Family: mac Name: mac os x Version: 10.14.3
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (display-info) @ demo ---
+[INFO] Ignoring requireUpperBoundDeps in com.google.guava:guava
+[INFO] Ignoring requireUpperBoundDeps in com.google.code.findbugs:jsr305
+[INFO] 
+[INFO] --- maven-localizer-plugin:1.24:generate (default) @ demo ---
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.4:javadoc (default) > generate-sources @ demo >>>
+[INFO] 
+[INFO] --- maven-hpi-plugin:2.2:validate (default-validate) @ demo ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:display-info (display-info) @ demo ---
+[INFO] Maven Version: 3.6.1
+[INFO] JDK Version: 1.8.0_211 normalized as: 1.8.0-211
+[INFO] OS Info: Arch: x86_64 Family: mac Name: mac os x Version: 10.14.3
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (display-info) @ demo ---
+[INFO] Ignoring requireUpperBoundDeps in com.google.guava:guava
+[INFO] Ignoring requireUpperBoundDeps in com.google.code.findbugs:jsr305
+[INFO] 
+[INFO] --- maven-localizer-plugin:1.24:generate (default) @ demo ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.4:javadoc (default) < generate-sources @ demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.4:javadoc (default) @ demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 30 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/./demo-plugin-kopia/target/classes
+[INFO] /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/demo-plugin-kopia/src/main/java/io/jenkins/plugins/sample/HelloWorldBuilder.java: /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/./demo-plugin-kopia/src/main/java/io/jenkins/plugins/sample/HelloWorldBuilder.java uses or overrides a deprecated API.
+[INFO] /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/demo-plugin-kopia/src/main/java/io/jenkins/plugins/sample/HelloWorldBuilder.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] <<< maven-hpi-plugin:2.2:run (default-cli) < compile @ demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-hpi-plugin:2.2:run (default-cli) @ demo ---
+[INFO] Logging initialized @13285ms to org.eclipse.jetty.util.log.Slf4jLog
+[WARNING] Please use `webApp/contextPath` configuration parameter in place of the deprecated `contextPath` parameter
+[INFO] Generating /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/plugins/demo.hpl
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/junit/1.3/junit-1.3.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/structs/1.7/structs-1.7.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-job/2.11.2/workflow-job-2.11.2.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-basic-steps/2.6/workflow-basic-steps-2.6.hpi
+[WARNING] will not overwrite /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/plugins/null.jpi with /Users/krzysztof/.m2/repository/org/jenkins-ci/ui/handlebars/1.1.1/handlebars-1.1.1.hpi because it is newer
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-scm-step/2.4/workflow-scm-step-2.4.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/display-url-api/0.2/display-url-api-0.2.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-support/2.14/workflow-support-2.14.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/ui/bootstrap/1.3.2/bootstrap-1.3.2.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/durable-task/1.14/durable-task-1.14.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/script-security/1.31/script-security-1.31.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/ui/ace-editor/1.0.1/ace-editor-1.0.1.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/2.13/workflow-durable-task-step-2.13.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/scm-api/2.0.8/scm-api-2.0.8.hpi
+[WARNING] will not overwrite /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/plugins/null.jpi with /Users/krzysztof/.m2/repository/org/jenkins-ci/ui/jquery-detached/1.2.1/jquery-detached-1.2.1.hpi because it is newer
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/ui/jquery-detached/1.2.1/jquery-detached-1.2.1.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-api/2.20/workflow-api-2.20.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-step-api/2.12/workflow-step-api-2.12.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/workflow/workflow-cps/2.39/workflow-cps-2.39.hpi
+[INFO] Copying dependency Jenkins plugin /Users/krzysztof/.m2/repository/org/jenkins-ci/plugins/mailer/1.18/mailer-1.18.hpi
+[INFO] Configuring Jetty for project: TODO Plugin
+[INFO] /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/./demo-plugin-kopia/target/tmp/webapp already up to date with respect to /Users/krzysztof/.m2/repository/org/jenkins-ci/main/jenkins-war/2.7.3/jenkins-war-2.7.3.war
+[INFO] Context path = /jenkins
+[INFO] Tmp directory = /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/demo-plugin-kopia/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] jetty-9.4.5.v20170502
+[INFO] DefaultSessionIdManager workerName=node0
+[INFO] No SessionScavenger set, using defaults
+[INFO] Scavenging every 600000ms
+Jenkins home directory: /Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work found at: SystemProperties.getProperty("JENKINS_HOME")
+[INFO] Started o.e.j.m.p.JettyWebAppContext@269b091b{/jenkins,file:///Users/krzysztof/Documents/PWr/semestr-6/java-projekt/final/demo-plugin/work/jobs/jaba/workspace/demo-plugin-kopia/target/tmp/webapp/,AVAILABLE}{/Users/krzysztof/.m2/repository/org/jenkins-ci/main/jenkins-war/2.7.3/jenkins-war-2.7.3.war}
+[INFO] Jetty server exiting.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.989 s
+[INFO] Finished at: 2019-06-05T22:19:33+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.jenkins-ci.tools:maven-hpi-plugin:2.2:run (default-cli) on project demo: Failure: Address already in use -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"io.jenkins.plugins.sample"}]
